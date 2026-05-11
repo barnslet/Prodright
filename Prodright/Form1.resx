@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('1020458001')/?$expand=to_Description,to_ProductProcurement,to_ProductUnitsOfMeasure
+
+Product Group: 
+/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product?$filter=ProductGroup eq '7030410'&amp;$select=Product,ProductGroup,Brand,ProductType,Division,BaseUnit,PurchaseOrderQuantityUnit,ProductStandardID&amp;$expand=to_Description
+
+https://SGLSAPS4FEU1.spar.net:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('1020458001')/?$expand=to_Description,to_ProductProcurement,to_ProductUnitsOfMeasure
+
+
+@EndUserText.label: 'Flattened Product View'
+@OData.publish: true
+define view ZC_ProductFlat
+as select from mara
+  inner join marc on marc.matnr = mara.matnr
+  inner join makt on makt.matnr = mara.matnr
+{
+  key mara.matnr      as Product,
+      makt.maktx      as Description,
+      marc.werks      as Plant,
+      marc.mmsta      as PlantStatus,
+      mara.meins      as BaseUnit
+}
+
+
+🛒 Product Story – Explained for a Beginner Company Buyer
+What is this product?
+
+This product is a Clover Super Milk – Strawberry Flavoured, sold in 300 ml units.
+
+It is a finished, ready‑for‑sale grocery product, not a raw material or semi‑finished item. 
+[sparza-my....epoint.com]
+
+
+
+How buyers will recognise it
+
+
+Internal SAP product number: 1020458001
+
+Primary barcode (EAN): 6001299044519
+
+Brand: Clover
+
+Product type: Finished retail product
+
+Created in SAP: September 2022 (still active)
+ [sparza-my....epoint.com]
+
+
+This means buyers can confidently use this item in purchasing, replenishment, promotions, and store distribution.
+
+How this product is sold and ordered
+
+From a buyer’s perspective, this product can be ordered and handled in multiple packaging levels:
+Single unit (each)
+
+
+Size: 300 ml
+
+Weight: ~320 g gross
+
+Barcode: 6001299044519
+
+This is what the customer buys off the shelf.
+
+ [sparza-my....epoint.com]
+
+
+Inner pack
+
+6 units per pack
+Useful for stores or short replenishment cycles
+Own barcode for scanning/logistics [sparza-my....epoint.com]
+
+Case
+
+24 units per case
+This is the default purchasing unit
+Case weight: ~8.5 kg
+Case dimensions: suitable for warehouse handling and palletisation [sparza-my....epoint.com]
+
+➡️ Important buyer insight:
+When you place a purchase order, SAP expects the quantity in cases, not individual bottles. [sparza-my....epoint.com]
+
+Logistics &amp; warehouse handling
+
+The product has predefined dimensions and weights at each packaging level, which enables:
+
+Accurate transport planning
+Warehouse slotting
+
+Store delivery optimisation [sparza-my....epoint.com]
+
+
+
+No batch management or serial tracking is required, simplifying goods receiving and stock movements.
+Storage condition is defined (standard chilled dairy handling). [sparza-my....epoint.com]
+
+
+Quality &amp; risk considerations
+
+This product does not require special quality inspections during procurement.
+It is not classified as hazardous, not pilferable, and not batch‑tracked. [sparza-my....epoint.com]
+That reduces both administrative burden and compliance overhead for procurement teams.
+
+
+Lifecycle &amp; reliability
+
+Created in 2022 and updated as recently as October 2025, indicating the item is still actively maintained.
+Not marked for deletion, so it is safe to continue buying and ranging. [sparza-my....epoint.com]
+
+
+✅ What a Beginner Buyer Should Remember
+
+“This is a normal grocery product that we buy by the case, receive by the case, store easily, and sell individually in stores.”
+
+It has:
+
+Clear barcodes
+Standard packaging
+No complex handling rules
+Reliable supplier data
+
+
+🔍 Suggested Additional SAP OData Calls for a Complete Buyer View
+To turn this into a fully rounded product story, I recommend supplementing this data with the following APIs:
+1. Pricing &amp; costs
+
+To answer: “What does this product cost us?”
+
+API: API_PRODUCT_PRICE_SRV
+
+Data gained:
+
+Purchase prices
+
+Validity dates
+
+Cost conditions
+
+
+
+
+2. 
+Supplier &amp; source of supply
+
+
+To answer: “Who do we buy this from?”
+
+API: API_PRODUCT_SOURCELIST_SRV
+
+Data gained:
+
+Preferred vendors
+
+Source list validity
+Procurement rules
+
+
+
+
+
+
+3. Sales &amp; listing data
+
+
+To answer: “Where and how is this sold?”
+
+API: API_PRODUCT_SRV/A_ProductSales
+Data gained:
+
+Sales organisation listings
+Item category and sales relevance
+Distribution channel data
+
+
+
+
+
+
+4. Tax classification
+
+To answer: “How is this taxed?”
+
+API: API_PRODUCT_SALES_TAX_SRV
+Data gained:
+
+VAT classification
+Regional tax handling
+
+
+
+
+
+
+5. Stock &amp; availability
+
+To answer: “Do we have enough stock?”
+
+API: API_MATERIAL_STOCK_SRV
+Data gained:
+
+Plant‑level stock
+Available vs restricted quantities
+
+
+
+
+
+
+6. Shelf‑life &amp; freshness (if applicable)
+
+If dairy freshness becomes important:
+
+API: API_BATCH_SRV (only if batch management is later enabled)
+
+
+
+
+🧠 Final Recommendation
+For executive‑friendly or buyer‑friendly reporting, I recommend structuring your output as:
+
+
+Product summary
+
+How it is bought
+
+How it is sold
+
+Logistics &amp; storage
+
+Cost &amp; supplier
+
+Stock position
+
+
+
+This mirrors how non‑technical buyers think and avoids exposing SAP complexity unnecessarily.
+
+If you’d like, I can:
+
+
+Design a JSON “buyer view”
+Propose a Power BI / Excel layout
+
+Map SAP fields → business‑friendly labels
+
+Just tell me your preferred output.</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
