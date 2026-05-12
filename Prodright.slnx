@@ -1,3 +1,14 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Prodright/files/10283_sap.xml" />
+    <File Path="Prodright/files/10283_store.xml" />
+    <File Path="Prodright/files/Product 1020458001.xml" />
+    <File Path="README.md" />
+  </Folder>
   <Project Path="Prodright/Prodright.csproj" />
+  <Project Path="src/Prodright.Application/Prodright.Application.csproj" />
+  <Project Path="src/Prodright.Core/Prodright.Core/Prodright.Core.csproj" Id="c1e8a46b-3c4d-4f60-8392-53a3324b91d6" />
+  <Project Path="src/Prodright.Infrastructure/Prodright.Infrastructure.csproj" />
+  <Project Path="src/Prodright.WinForms/Prodright.WinForms.csproj" />
+  <Project Path="tests/Prodright.Core.Tests/Prodright.Core.Tests.csproj" />
 </Solution>
