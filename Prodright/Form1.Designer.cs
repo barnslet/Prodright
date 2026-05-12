@@ -49,6 +49,7 @@
             richTextBox1 = new RichTextBox();
             menuStrip1 = new MenuStrip();
             showApiCallsToolStripMenuItem = new ToolStripMenuItem();
+            button1 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudThreshold).BeginInit();
@@ -184,6 +185,7 @@
             tabPage3.Controls.Add(rtbS4Product);
             tabPage3.Controls.Add(label2);
             tabPage3.Controls.Add(textBox1);
+            tabPage3.Controls.Add(button1);
             tabPage3.Controls.Add(btnCallApi);
             tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
@@ -262,6 +264,16 @@
             showApiCallsToolStripMenuItem.Size = new Size(97, 20);
             showApiCallsToolStripMenuItem.Text = "Show Api Calls";
             // 
+            // button1
+            // 
+            button1.Location = new Point(929, 68);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "Real API";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += buttonFetch_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -314,5 +326,6 @@
         private ToolStripMenuItem showApiCallsToolStripMenuItem;
         private TabPage tabPage4;
         private RichTextBox richTextBox1;
+        private Button button1;
     }
 }

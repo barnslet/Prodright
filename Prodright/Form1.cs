@@ -9,9 +9,13 @@ namespace Prodright
     public partial class Form1 : Form
 
     {
-        public Form1()
+
+        private readonly IProductLookupService _products;
+
+        public Form1(IProductLookupService products)
         {
             InitializeComponent();
+            _products = products;
             SetupLayout();
         }
 
@@ -178,6 +182,22 @@ namespace Prodright
                 }
             }
         }
+
+
+
+        private async void buttonFetch_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var product = await _products.GetProductAsync("1020458001");
+                MessageBox.Show(product?.Description ?? "No product found");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "SAP not available", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
 
     }
 }
