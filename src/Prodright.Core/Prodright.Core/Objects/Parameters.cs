@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Prodright.Objects
 {
-    internal class Parameters
+    public class Parameters
     {
         public double Threshold { get; set; } = 0;
     }

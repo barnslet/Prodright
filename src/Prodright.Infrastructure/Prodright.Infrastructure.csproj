@@ -10,4 +10,10 @@
     <Folder Include="SapProviders\Helpers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.84.0" />
+  </ItemGroup>
+
 </Project>

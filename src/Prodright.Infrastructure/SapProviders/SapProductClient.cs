@@ -1,6 +1,7 @@
 ﻿using System.Net.Http.Json;
 using System.Text;
 using Microsoft.Extensions.Options;
+using Prodright.SapProviders.Dtos;
 
 public sealed class SapProductClient
 {
